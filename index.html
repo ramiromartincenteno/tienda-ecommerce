@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peak Store | Tienda Online Oficial</title>
+    <meta name="description"
+        content="Tu tienda online de indumentaria deportiva, zapatillas de running, suplementos y equipamiento fitness en Catamarca.">
+    <meta name="author" content="Ramiro Centeno">
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Estilos Propios -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light">
+    <!-- HEADER / ESTILO ECOMMERCE -->
+    <header class="bg-warning py-2 border-bottom shadow-sm sticky-top">
+        <div class="container">
+
+            <!-- FILA SUPERIOR: LOGO, BUSCADOR, PROMO -->
+            <div class="row align-items-center g-2 mb-2">
+
+                <!-- logo -->
+                <div class="col-6 col-md-3 col-lg-2">
+                    <a class="navbar-brand fw-bold fs-3 text-dark d-flex align-items-center gap-2" href="index.html">
+                        <i class="bi bi-bag-bolt-fill text-danger"></i> PeakStore
+                    </a>
+                </div>
+
+                <!-- buscador principal -->
+                <div class="col-12 col-md-6 col-lg-7 order-3 order-md-2">
+                    <form action="#" class="w-100">
+                        <div class="input-group shadow-sm">
+                            <input type="text" class="form-control border-0 py-2 ps-3"
+                                placeholder="Buscar productos, marcas y más..." aria-label="Buscador de productos">
+                            <button class="btn btn-white bg-white border-0 text-secondary pe-3" type="submit"
+                                aria-label="Buscar">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Promo / Envíos -->
+                <div class="col-6 col-md-3 col-lg-3 order-2 order-md-3 text-end d-none d-md-block">
+                    <span class="badge bg-danger text-whait p-2 small">
+                        <i class="bi bi-truck me-1"></i>Envíos gratis desde $50.000
+                    </span>
+                </div>
+            </div>
+
+            <!-- FILA INFERIOR: UBICACIÓN, NAVEGACIÓN Y CARRITO -->
+            <div class="row align-items-center g-2 pt-1 border-top border-dark border-opacity-10 small">
+
+                <!-- Ubicación / Código Postal -->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <a href="#"
+                        class="text-dark text-decoration-none d-flex align-items-center gap-1 opacity-75 hover-opacity-100">
+                        <i class="bi bi-geo-alt fs-5"></i>
+                        <div>
+                            <span class="d-block lh-1 text-muted" style="font-size: 0.75rem;">Enviar a</span>
+                            <strong class="lh-1">Catamarca 4700</strong>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Menú de Navegación -->
+                <div class="col-12 col-md-6 col-lg-6">
+                    <nav
+                        class="d-flex gap-3 flex-wrap align-items-center justify-content-start justify-content-md-center fw-semibold">
+                        <a href="#" class="text-dark text-decoration-none hover-danger">Categorías <i
+                                class="bi bi-chevron-down small"></i></a>
+                        <a href="#" class="text-dark text-decoration-none hover-danger">Ofertas</a>
+                        <a href="#" class="text-dark text-decoration-none hover-danger">Historial</a>
+                        <a href="#" class="text-dark text-decoration-none hover-danger">Vender</a>
+                        <a href="#" class="text-dark text-decoration-none hover-danger">Ayuda</a>
+                    </nav>
+                </div>
+
+                <!-- Usuario y Carrito -->
+                <div class="col-12 col-md-3 col-lg-3 text-end d-flex align-items-center justify-content-end gap-3">
+                    <a href="#" class="text-dark text-decoration-none fw-semibold">Crea tu cuenta</a>
+                    <a href="#" class="text-dark text-decoration-none fw-semibold">Ingresá</a>
+
+                    <!-- Botón de Carrito con Contador -->
+                    <a href="#" class="text-dark text-decoration-none fs-5 position-relative ms-2"
+                        aria-label="Carrito de Compras">
+                        <i class="bi bi-cart3"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                            style="font-size: 0.65rem;">0</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- MAIN CONTENIDO PRINCIPAL DE LA TIENDA -->
+    <main class="mb-5">
+
+        <!-- 1. CARRUSEL PRINCIPAL DE BANNERS -->
+         <section class="container-fluid px-0 mb-4">
+            <div id="carouselPrincipal" class="carousel slide shadow-sm" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <!-- Banner 1 -->
+                     <div class="carousel-item active">
+                        <div class="p-5 bg-dark text-white text-center d-flex flex-column align-items-center justify-content-center" style="min-height: 320px; background: linear-gradient(135deg, #111 0%, #333 100%);">
+                            <span class="badge bg-warning text-dark text-uppercase fw-bold mb-2">Lanzamiento Exclusivo</span>
+                                <h2 class="display-5 fw-bold text-uppercase text-white">Zapatillas de Trail Running</h2>
+                                <p class="lead mb-3">Hasta 12 cuotas sin interés en indumentaria seleccionada</p>
+                                <a href="#" class="btn btn-warning fw-bold px-4">Ver Ofertas</a>
+                        </div>
+                     </div>
+                    <!-- Banner 2 -->
+                     <div class="carousel-item">
+                        <div class="p-5 bg-danger text-white text-center d-flex flex-column align-items-center justify-content-center" style="min-height: 320px; background: linear-gradient(135deg, #800 0%, #d00 100%);">
+                            <span class="badge bg-warning text-dark text-uppercase fw-bold mb-2">Equipamiento Fitness</span>
+                                <h2 class="display-5 fw-bold text-uppercase text-white">Racks & Mancuernas Pro</h2>
+                                <p class="lead mb-3">Envío gratis a todo el país en compras superiores a $50.000</p>
+                                <a href="#" class="btn btn-warning fw-bold px-4">Comprar Ahora</a>
+                        </div>
+                     </div>
+                    <!-- Banner 3 -->
+                     <div class="carousel-item">
+                        <div class="p-5 bg-black text-white text-center d-flex flex-column align-items-center justify-content-center" style="min-height: 320px;">
+                            <span class="badge bg-warning text-dark text-uppercase fw-bold mb-2">Suplementación</span>
+                                <h2 class="display-5 fw-bold text-uppercase text-white">Combos de Nutrición</h2>
+                                <p class="lead mb-3">Proteínas, creatinas y geles al mejor precio del mercado</p>
+                                <a href="#" class="btn btn-warning fw-bold px-4">Conocer Más</a>
+                        </div>
+                     </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrincipal" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPrincipal" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+         </section>
+
+
+         <!-- BARRA DE BENEFICIOS / MÉTODOS DE PAGO -->
+
+         <section class="container">
+            <div class="p-3 bg-white rounded-3 shadow-sm border">
+                <div class="row g-3 text-center text-md-start align-items-center">
+                    <!-- Beneficio 1 -->
+                     <div class="col-12 col-md-3 border-end-md">
+                        <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-3">
+                            <i class="bi bi-credit-card-2-front text-primary fs-2"></i>
+                            <div>
+                                <strong class="d-block text-dark small">Hasta 12 cuotas fijas</strong>
+                                <a href="#" class="text-primary small text-decoration-none">Ver bancos habilitados</a>
+                            </div>
+                        </div>
+                     </div>
+                    <!-- Beneficio 2 -->
+                     <div class="col-12 col-md-3 border-end-md">
+                        <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-3">
+                            <i class="bi bi-wallet2 text-success fs-2"></i>
+                            <div>
+                                <strong class="d-block text-dark small">Efectivo o Transferencia</strong>
+                                <a href="#" class="text-muted small">10% de descuento extra</a>
+                            </div>
+                        </div>
+                     </div>
+                    <!-- Beneficio 3 -->
+                     <div class="col-12 col-md-3 border-end-md">
+                        <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-3">
+                            <i class="bi bi-truck text-warning fs-2"></i>
+                            <div>
+                                <strong class="d-block text-dark small">Envíos a todo el país</strong>
+                                <a href="#" class="text-primary small text-decoration-none">Calcular costos</a>
+                            </div>
+                        </div>
+                     </div>
+                    <!-- Beneficio 4 -->
+                     <div class="col-12 col-md-3">
+                        <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-3">
+                            <i class="bi bi-shield-check text-danger fs-2"></i>
+                            <div>
+                                <strong class="d-block text-dark small">Compra protegida</strong>
+                                <a href="#" class="text-muted small">Devolución gratis por 30 días</a>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+         </section>
+        
+    </main>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -29,4 +29,13 @@
 /* Transición por defecto para la imagen para que al salir el mouse regrese suave */
 .product-card .display-1 {
   transition: transform 0.3s ease;
+}
+
+/* Efecto hover suave para tarjetas de categorías */
+.hover-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important;
 }/*# sourceMappingURL=style.css.map */

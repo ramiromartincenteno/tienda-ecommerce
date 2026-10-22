@@ -42,3 +42,17 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important;
   }
 }
+/* Transiciones para links del footer */
+.hover-warning {
+  transition: color 0.2s ease;
+  &:hover {
+    color: #ffc107 !important; /* Amarillo Bootstrap */
+  }
+}
+
+.hover-white {
+  transition: color 0.2s ease;
+  &:hover {
+    color: #ffffff !important;
+  }
+} 

@@ -105,48 +105,52 @@
     <main class="container my-4">
 
         <!-- BREADCRUMB / MIGA DE PAN -->
-         <nav aria-label="breadcrumb" class="mb-3">
+        <nav aria-label="breadcrumb" class="mb-3">
             <ol class="breadcrumb small">
                 <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none text-muted">Inicio</a></li>
                 <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-muted">Calzado</a></li>
                 <li class="breadcrumb-item active fw-semibold text-dark">Zapatillas Running Pro Trail 3000</li>
             </ol>
-         </nav>
+        </nav>
 
-         <!-- CONTENEDOR PRINCIPAL DEL PRODUCTO -->
-          <div class="bg-white rounded-3 shadow-sm p-3 p-md-4 mb-4">
+        <!-- CONTENEDOR PRINCIPAL DEL PRODUCTO -->
+        <div class="bg-white rounded-3 shadow-sm p-3 p-md-4 mb-4">
             <div class="row g-4">
 
                 <!-- COLUMNA IZQUIERDA: GALERIA DE IMAGENES -->
                 <div class="col-12 col-md-7">
                     <div class="d-flex flex-column flex-md-row gap-3">
                         <!-- Miniaturas (Thumbnails) -->
-                         <div class="d-flex flex-md-column gap-2 order-2 order-md-1 justify-content-center">
-                            <button class="btn p-1 border border-warning rounded overflow-hidden" style="width: 60px; height: 60px;">
+                        <div class="d-flex flex-md-column gap-2 order-2 order-md-1 justify-content-center">
+                            <button class="btn p-1 border border-warning rounded overflow-hidden"
+                                style="width: 60px; height: 60px;">
                                 <i class="bi bi-lightning-charge-fill text-warning fs-3"></i>
                             </button>
-                            <button class="btn p-1 border rounded opacity-50 overflow-hidden" style="width: 60px; height: 60px;">
+                            <button class="btn p-1 border rounded opacity-50 overflow-hidden"
+                                style="width: 60px; height: 60px;">
                                 <i class="bi bi-lightning-charge text-secondary fs-3"></i>
                             </button>
-                            <button class="btn p-1 border rounded opacity-50 overflow-hidden" style="width: 60px; height: 60px;">
+                            <button class="btn p-1 border rounded opacity-50 overflow-hidden"
+                                style="width: 60px; height: 60px;">
                                 <i class="bi bi-shield-fill text-primary fs-3"></i>
                             </button>
-                         </div>
+                        </div>
 
-                         <!-- Imagen Principal -->
-                          <div class="flex-grow-1 border rounded p-5 text-center bg-light d-flex align-items-center justify-content-center order-1 order-md-2" style="min-height: 380px;">
+                        <!-- Imagen Principal -->
+                        <div class="flex-grow-1 border rounded p-5 text-center bg-light d-flex align-items-center justify-content-center order-1 order-md-2"
+                            style="min-height: 380px;">
                             <i class="bi bi-lightning-charge-fill text-warning display-1"></i>
-                          </div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- COLUMNA DERECHA: PANEL DE COMPRA -->
-                 <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5">
                     <span class="text-muted text-uppercase small">Nuevo | +500 vendidos</span>
                     <h1 class="h3 fw-bold text-dark mt-1 mb-2">Zapatillas Running Pro Trail 3000</h1>
 
                     <!-- Calificaciòn Estrellas -->
-                     <div class="d-flex align-items-center gap-2 mb-3">
+                    <div class="d-flex align-items-center gap-2 mb-3">
                         <div class="text-warning small">
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
@@ -155,19 +159,182 @@
                             <i class="bi bi-star-half"></i>
                         </div>
                         <span class="small text-muted">(128 opiniones)</span>
-                     </div>
+                    </div>
 
-                     <!-- Precios -->
-                      <div>
-                        <span>$120.000</span>
-                        <span>20% OFF</span>
-                        <div>$96.000</div>
-                        <p><i> Mismo precio en 6 cuotas de $16.000</i></p>
-                      </div>
+                    <!-- Precios -->
+                    <div class="mb-3 p-3 bg-light rounded-3">
+                        <span class="text-muted text-decoration-line-through small me-2">$120.000</span>
+                        <span class="badge bg-danger">20% OFF</span>
+                        <div class="display-6 fw-bold text-dark my-1">$96.000</div>
+                        <p class="text-success small fw-semibold mb-0"><i class="bi bi-credit-card me-1"></i> Mismo precio
+                                en 6 cuotas de $16.000</p>
+                    </div>
 
+                    <!-- Selector de talle -->
+                    <div class="mb-3">
+                        <label class="form-label fw-bold small text-dark d-flex justify-content-between">
+                            <span>Talle (US):</span>
+                            <a href="#" class="text-primary text-decoration-none small">Guía de talles</a>
+                        </label>
+                        <div class="d-flex gap-2 flex-wrap">
+                            <input type="radio" class="btn-check" name="talle" id="talle39" autocomplete="off">
+                            <label class="btn btn-outline-secondary btn-sm px-3" for="talle39">39</label>
+
+                            <input type="radio" class="btn-check" name="talle" id="talle40" autocomplete="off" checked>
+                            <label class="btn btn-outline-warning text-dark fw-bold btn-sm px-3"
+                                for="talle40">40</label>
+
+                            <input type="radio" class="btn-check" name="talle" id="talle41" autocomplete="off">
+                            <label class="btn btn-outline-secondary btn-sm px-3" for="talle41">41</label>
+
+                            <input type="radio" class="btn-check" name="talle" id="talle42" autocomplete="off">
+                            <label class="btn btn-outline-secondary btn-sm px-3" for="talle42">42</label>
+                        </div>
+                    </div>
+
+                    <!-- Boton de Acción -->
+                    <div class="d-grid gap-2 mb-3">
+                        <button class="btn btn-warning fw-bold py-2 text-dark">Comprar Ahora</button>
+                        <button class="btn btn-outline-warning text-dark fw-semibold py-2">
+                            <i class="bi bi-cart-plus me-1"></i> Agregar al Carrito
+                        </button>
+                    </div>
+
+                    <!-- Garantia y Devolución -->
+                    <ul class="list-unstyled small text-muted mb-0 d-flex flex-column gap-2 border-top pt-3">
+                        <li><i class="bi bi-arrow-return-left text-success me-2"></i><strong>Devolución gratis:</strong>
+                            Tenés 30 días desde que lo recibís.</li>
+                        <li><i class="bi bi-shield-check text-primary me-2"></i><strong>Garantía:</strong> 6 meses de
+                            garantía de fábrica.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN DE PESTAÑAS: DESCRIPCIÓN, ESPECIFICACIONES Y OPINIONES -->
+         <div>
+
+            <!-- Botones de Pestañas (Nav Tabs) -->
+            <ul class="nav nav-tabs fw-semibold mb-4" id="productoTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active text-dark" id="descripcion-tab" data-bs-toggle="tab" data-bs-target="#descripcion" type="button" role="tab" aria-controls="descripcion" aria-selected="true">Descripción</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-dark" id="especificaciones-tab" data-bs-toggle="tab" data-bs-target="#especificaciones" type="button" role="tab" aria-controls="especificaciones" aria-selected="false">Especificaciones Técnicas</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-dark" id="opiniones-tab" data-bs-toggle="tab" data-bs-target="#opiniones" type="button" role="tab" aria-controls="opiniones" aria-selected="false">Opiniones (128)</button>
+                </li>
+            </ul>
+
+            <!-- Contenido de cada Pestaña (Tab Content) -->
+             <div>
+
+                <!-- TAB 1: DESCRIPCION -->
+                 <div class="tab-pane fade show active" id="descripcion" role="tabpanel" aria-labelledby="descripcion-tab">
+                    <h4 class="h5 fw-bold text mb-3">Diseñadas para terrenos exigentes</h4>
+                    <p class="text-muted">Las <strong>Zapatillas Pro Trail Running 3000</strong> ofrecen el máximo rendimiento en senderos de montaña, barro y rocas. Cuentan con una suela de agarre multidireccional con tacos de alta tracción y una mediasuela reforzada con tecnología de absorción de impacto para proteger tus articulaciones durante largos recorridos.</p>
+                    <p class="text-muted mb-0">Su capellada sintética ultra respirable con refuerzos de TPU en la puntera evita el desgaste prematuro frente a rocas y maleza. Ideal tanto para entrenamiento diario de montaña como para competencias de trail.</p>
                  </div>
 
-            </div>
-          </div>
-
+             </div>
+         </div>
     </main>
+
+
+    <!-- FOOTER / PIE DE PAGINA E-COMMERCE -->
+    <footer class="bg-dark text-white pt-5 pb-3 border-top border-warning border-4">
+        <div class="container">
+
+            <!-- CAPA 1: NEWSLETTER / SUSCRIPCIÓN -->
+            <div class="row bg-secondary bg-opacity-25 p-4 rounded-4 align-items-center mb-5 g-3">
+                <div class="col-12 col-md-6">
+                    <h4 class="h5 fw-bold mb-1"><i class="bi bi-envelope-paper-heart text-warning me-2"></i>¡Sumate al
+                        Club Peak Store!</h4>
+                    <p class="text-white-50 small mb-0">Recibí ofertas exclusivas, cupones de descuento y novedades en
+                        tu email.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form action="#" class="d-flex gap-2">
+                        <input type="email" class="form-control" placeholder="Ingresá tu correo electrónico" required
+                            aria-label="Correo Electrónico">
+                        <button type="submit" class="btn btn-warning fw-bold text-nowrap">Suscribirme</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- CAPA 2: COLUMNAS DE INFORMACIÓN -->
+            <div class="row g-4 mb-4">
+
+                <!-- Columna 1: Marca & Info -->
+                <div class="col-12 col-md-4">
+                    <a class="navbar-brand fw-bold fs-3 text-white d-flex align-items-center gap-2 mb-3"
+                        href="index.html">
+                        <i class="bi bi-bag text-warning"></i> PeakStore
+                    </a>
+                    <p class="text-white-50 small mb-3">Tu tienda online de indumentaria deportiva, calzado running y
+                        equipamiento fitness en Catamarca.</p>
+                    <div class="d-flex gap-3 fs-5">
+                        <a href="#" class="text-white-50 hover-warning" aria-label="Instagram"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white-50 hover-warning" aria-label="Facebook"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white-50 hover-warning" aria-label="WhatsApp"><i
+                                class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Columna 2: Navegación -->
+                <div class="col-6 col-md-2">
+                    <h5 class="h6 fw-bold text-warning mb-3">Categorías</h5>
+                    <ul class="list-unstyled small d-flex flex-column gap-2">
+                        <li><a href="#" class="text-white-50 text-decoration-none hover-white">Calzado Running</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none hover-white">Suplementos</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none hover-white">Equipamiento</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none hover-white">Accesorios GPS</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Ayuda -->
+                <div class="col-6 col-md-3">
+                    <h5 class="h6 fw-bold text-warning mb-3">Centro de Ayuda</h5>
+                    <ul class="list-unstyled small d-flex flex-column gap-2">
+                        <li><a href="#" class="text-white-50 text-decoration-none hover-white">Comprar en Peak Store</a>
+                        </li>
+                        <li><a href="#" class="text-white-50 text-decoration-none hover-white">Términos y
+                                Condiciones</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none hover-white">Botón de
+                                Arrepentimiento</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none hover-white">Preguntas Frecuentes</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Columna 4: Contacto -->
+                <div class="col-12 col-md-3">
+                    <h5 class="h6 fw-bold text-warning mb-3">Contacto Directo</h5>
+                    <ul class="list-unstyled small d-flex flex-column gap-2 text-white-50">
+                        <li><i class="bi bi-geo-alt text-warning me-2"></i>San Fernando del Valle de Catamarca</li>
+                        <li><i class="bi bi-telephone text-warning me-2"></i>+54 383 4963785</li>
+                        <li><i class="bi bi-clock text-warning me-2"></i>Lun a Sab: 08:00 a 20:00 hs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CAPA 3: COPYRIGHT & LEGALES -->
+            <div
+                class="border-top border-secondary pt-3 mt-4 text-center text-md-between d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 small text-white-50">
+                <p class="mb-0">&copy; 2026 Peak Store. Todos los derechos reservados.</p>
+                <p class="mb-0">Desarrollado por <strong class="text-warning">Ramiro Centeno</strong></p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+ 
